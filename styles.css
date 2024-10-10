@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  }
+
+body {
+  background-color: #f8f9fa;
+}
+
+.header {
+  background-color: #004a9f;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.portal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.portal-logo img {
+  width: 150px;
+}
+
+.portal-title {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #004a9f;
+  font-weight: bold;
+}
+
+.portal-subtitle {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.card {
+  max-width: 400px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer .contact-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer .contact-details i {
+  color: #004a9f;
+  margin-right: 8px;
+}
+
+.footer a {
+  color: #004a9f;
+  text-decoration: none;
+}
